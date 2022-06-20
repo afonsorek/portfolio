@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 100;
+}
+
+.title{
+  position: sticky;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+  color: #3b3b3b;
+  transform: scale(1.25,1.25);
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #ffffff;
+  height: 8vh;
+}
+
+body {
+  margin:0;
+  padding: 0;
+  color: #242424;
+  font-family: sans-serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li:hover{
+  transform: scale(1.25,1.25);
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+  transition: 0.3s;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 900;
+  color: #000;
+}
+
+p{
+  font-size: 20px;
+}
+
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+
+main{
+  display: block;
+  background-color: #fff;
+}
+
+.container{
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section.module.p{
+  margin-bottom: 40px;
+}
+
+section.module:last-child{
+  margin-bottom: 0;
+}
+
+section.module.h2{
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30;
+}
+
+section.module.content{
+  padding: 40px 0;
+  background: linear-gradient(to bottom , rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, rgb(208, 208, 208) 100%);
+  border-top: 10px solid rgb(0, 0, 0);
+  border-bottom: 10px solid rgb(0, 0, 0);
+
+}
+
+section.module.parallax{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh !important;
+  width: 100;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+section.module.parallax:after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  background: -moz-linear-gradient(to bottom , rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+  background: -webkit-linear-gradient(to bottom , rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+  background: linear-gradient(to bottom , rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+  opacity: 80%;
+}
+
+section.module.parallax-1:after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  background: -moz-linear-gradient(to bottom , rgba(0, 0, 0, 0) 0, rgba(0,0,0,0) 40%, rgb(255, 255, 255) 100%);
+  background: -webkit-linear-gradient(to bottom , rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(to bottom , rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, rgb(255, 255, 255) 100%);
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.log{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+section.module.parallax-1{
+  background-image: url("https://img.freepik.com/free-vector/digital-white-background-with-binary-code-numbers_1017-25335.jpg?w=2000");
+}
+
+section.module.parallax-2{
+  background-image: url("https://img.freepik.com/free-vector/digital-white-background-with-binary-code-numbers_1017-25335.jpg?w=2000");
+}
+
+section.module.parallax-3{
+  background-image: url("https://img.freepik.com/free-vector/digital-white-background-with-binary-code-numbers_1017-25335.jpg?w=2000");
+}
+
+section.module.parallax-4{
+  background-image: url("https://img.freepik.com/free-vector/digital-white-background-with-binary-code-numbers_1017-25335.jpg?w=2000");
+}
+
+section.module.parallax h1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 150px;
+  z-index: 5;
+  text-transform: uppercase;
+  font-family:'font-family:bai jamjuree,sans-serif;';
+  font-weight: bold;
+  color:#ffffff;
+  text-shadow:
+  5px 5px 0 rgb(0, 0, 0),
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+input[type="checkbox"]{
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+}
+
+.check{
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  background: #092c3e;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: ease-in 0.5s;
+}
+
+input[type="checkbox"]:checked ~ .check{
+  background: #fff;
+  box-shadow: 0 0 0 1px #092c3e;
+}
+.check:before{
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: #fff;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: 0.7s;
+}
+
+input[type="checkbox"]:checked ~ .check:before{
+  transform: translateX(-50px);
+}
+
+.check:after{
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: #092c3e;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: 0.7s;
+  transform: translateX(50px);
+}
+
+input[type="checkbox"]:checked ~ .check:after{
+  transform: translateX(0px);
+}
+
+.dark-mode{
+  filter: invert(95%);
+  transition: .7s;
+}

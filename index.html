@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <a name="inicio"></a>
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="#inicio">Afonso R. Rekbaim</a>
+        <ul class="nav-list">
+          <li><a href="#sobre">Sobre Mim</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#social">Social/Contato</a></li>
+          <li><label><input type="checkbox" onClick="changeMode()"><span class="check"></span></label></li>
+        </ul>
+        <img style="width: 2%; position: absolute; left: 88.5%;" src="https://cdn-icons-png.flaticon.com/512/178/178357.png" alt="Dark-Mode">
+        <p style="position: absolute; left: 90.5%; top: 28%;">Dark Mode</p>
+      </nav>
+    </header>
+    <script>
+      function changeMode(){
+        var element = document.body;
+        element.classList.toggle("dark-mode")
+      }
+    </script>
+    <div class="wrapper">
+      <main>
+          <section class="module parallax parallax-1">
+              <img class="log" src="ar.png" alt="" style="z-index:50;">
+          </section>
+
+          <section class="module content">
+              <div class="container">
+                  <h3 style="text-align: center;">Bem Vindo ao Portfólio de</h3>
+                  <h2 style="text-align: center;">Afonso Rocha Rekbaim</h2>
+              </div>
+          </section>
+          <a name="sobre"></a>
+          <section class="module parallax parallax-2">
+            <img src="abt.png" alt="">
+          </section>
+
+          <section class="module content">
+              <div class="container">
+                <h2 style="text-align: center;">História</h2>
+                <p style="text-align: center;">Sou natural de Curitiba-PR, tenho 18 anos e sou estudante do curso de Ciência da Computação na PUC-PR.
+                  participo do PIBIC voltado ao alinhamento e segmentação de modelos 3D texturizados com foco na tireoide
+                  a fim de identificar bócios. Sou músico, toco violão, violino e piano. Adoro a área de Inteligência Artifical
+                  , Machine Learning, Deep Learning, etc.
+                </p>
+              </div>
+          </section>
+          <a name="projetos"></a>
+          <section class="module parallax parallax-3">
+            <img src="port.png" alt="">
+          </section>
+
+          <section class="module content">
+            <div class="container">
+              <h2 style="text-align: center;">Projetos</h2>
+              <p style="text-align: center;">Alguns dos meus trabalhos mais relevantes são:</p>
+              <br><br>
+              <hr>
+              <br><br>
+              <h3 style="text-align: center;">A NEW LIFE</h3><br>
+              <video src="anl.mp4" style="width: 75%;" autoplay loop muted></video><br>
+              <p style="text-align: center;">A New Life é um jogo estilo plataforma criado utilizando o Construct com uma equipe de 6 pessoas, no qual a sociedade fica presa em Bunkers por 500 anos
+                devido a incidentes nucleares. Você joga controlando um sobrevivente que sai em busca de recursos
+                e se depara com os cenários de destruição e vida modificados pela liberação de radiação.
+              </p>
+              <br><br>
+              <hr>
+              <br><br>
+              <h3 style="text-align: center;">Aquário Virtual</h3><br>
+              <video src="aqr.mp4" style="width: 75%;" autoplay loop muted></video><br>
+              <p style="text-align: center;">Esse é um aplicativo criado em Java utilizando o Processing sobre espécies exóticas no fundo do oceano,
+                nele é possível conhecer 6 espécies, algumas delas bem estranhas. Cada integrante do grupo escolheu uma espécie para ser apresentada!
+              </p>
+              <br><br>
+              <hr>
+              <br><br>
+              <h3 style="text-align: center;">Site com aplicativo Web</h3><br>
+              <img src="bar.png" style="width: 75%;"><br>
+              <p style="text-align: center;">Criação de um site conectado a um banco de dados. Foram utilizadas 5 linguagens de programação e 14 aqruivos
+                totalizando quase 800 linhas de código para a criação desse site. Nele é possível ver vídeos do youtube por meio de players,
+                ver imagens dos pratos e a parte mais importante, é possível fazer reservas completas que vão direto para um banco de dados
+                criado em PHP por um grupo de 5 alunos.
+              </p>
+              <br><br>
+              <hr>
+              <br><br>
+              <h3 style="text-align: center;">Este site!</h3>
+              <br>
+              <p style="text-align: center;">Esse site portfólio foi feito individualmente por mim, nele eu utilizei html, css e java-script.
+                Utilizei conceitos de parallax, dark mode, e uma estética moderna para desenvolve-lo.
+              </p>
+              <br><br>
+              <hr>
+              <br><br>
+              <h3 style="text-align: center;">Jokenpô em Python</h3>
+              <br>
+              <p style="text-align: center;">O famoso Pedra Papel Tesoura com 3 modos de jogo criado em python.
+                É possível jogar nos modos <b>Humano x Humano, Humano x Computador, Computador</b>. O repositório
+                está disponível na minha conta do GitHub.
+              </p>
+              <br><br>
+              <hr>
+              <br><br>
+              <h3 style="text-align: center;">Máquina de Vendas</h3>
+              <br>
+              <p style="text-align: center;">Uma máquina de bebidas feita em python. Esse código é mais complexo pois utiliza
+                conceitos de listas, matrizes e funções. Ele possúi 2 arquivos, um para as funções e outro para deixar em loop a máquina.
+                O repositório dele também está disponível na minha conta do GitHub.
+              </p>
+            </div>
+        </section>
+        <a name="social"></a>
+        <section class="module parallax parallax-4">
+          <img src="https://see.fontimg.com/api/renderfont4/DzjR/eyJyIjoiZnMiLCJoIjoxNzEsInciOjI2MjUsImZzIjo2NSwiZmdjIjoiIzAwMDAwMCIsImJnYyI6IiNGRkZGRkYiLCJ0IjoxfQ/Rm9sbG93IE1l/follow-me.png" alt="">
+        </section>
+
+        <section class="module content">
+          <div class="container">
+            <h2>Social</h2>
+            <p></p>
+          </div>
+      </section>
+
+      </main>
+  </div>
+  
+</body>
+</html>
